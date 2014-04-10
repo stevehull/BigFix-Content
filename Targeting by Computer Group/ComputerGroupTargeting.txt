@@ -1,0 +1,15 @@
+GET /api/query?relevance=(name of site of it, name of it, id of it) of bes computer groups
+
+results:
+ActionSite, Windows Group, 76
+ActionSite, Emeryville Group, 203
+ActionSite, San Jose Group, 204
+ActionSite, Nike Group, 208
+ActionSite, Reebok Group, 209
+ActionSite, Manual Group1, 287
+
+Targeting xml as part of SingleAction on POST /api/actions request:
+
+<Target>
+	<CustomRelevance>member of group 208 of site "actionsite"</CustomRelevance>
+</Target>
